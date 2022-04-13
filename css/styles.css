@@ -1,0 +1,59 @@
+body{
+  background-color: #FFF6EA;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+}
+
+.Red{
+  color: #FD5D5D;
+}
+
+.English-Title{
+  color: rgba(43,37,164,1);
+}
+
+.black{
+  color:black;
+}
+
+.Title{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.BD{
+  font-size: 20px;
+}
+
+.middle{
+  font-size: 25px;
+}
+
+.main_address{
+  font-size: 23px;
+}
+
+.email{
+  font-size: 19px;
+}
+
+.branch{
+  font-size: 19px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.trustee_members{
+  font-size: 20px;
+}
