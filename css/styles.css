@@ -12,10 +12,21 @@ hr{
   width: 5%;
 }
 
+h1{
 
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
 
 .Red{
   color: #FD5D5D;
+
+}
+.head{
+  font-size: 30px;
 }
 
 .English-Title{
@@ -28,8 +39,8 @@ hr{
 
 .Title{
   font-size: 18px;
-  padding:20px;
-  margin: 10px;
+
+  display:inline-block;
   text-align: center;
 }
 
@@ -66,27 +77,28 @@ h3{
 }
 
 .first-image{
-  width: 380px;
-  display: inline-block;
+  /* width: 380px; */
+  /* display: inline-block;
   position: relative;
-  left:20px;
+  left:20px; */
   text-align: center;
 }
 
 .Data-bet-images{
-  width: 215px;
-  display: inline-block;
-  position: relative;
-  bottom: 150px;
+  /* width: 215px; */
+  /* display: inline-block;*/
+  /* position: relative;
+  top:50px; */
   text-align: center;
+
 }
 
 .second-image{
-  width: 380px;
-  display: inline-block;
+  /* width: 380px; */
+  /* display: inline-block;
   position:relative;
   left: 30px;
-  bottom: 30px;
+  bottom: 30px; */
   text-align: center;
 }
 
@@ -98,6 +110,37 @@ h3{
 .Address{
   text-align: center;
 }
+.t1{
+  padding-bottom:50px;
+}
+.t3
+{
+  padding-top: 50px;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 8px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.row{
+  padding-top: 8rem;
+}
+
 .navbar-toggler {
     border: 0 !important;
 }
@@ -110,21 +153,17 @@ h3{
     border: 0 !important;
 }
 
-/* Lines of the Toggler */
 .toggler-icon{
     width: 30px;
     height: 3px;
-    background-color: #e74c3c;
+
     display: block;
     transition: all 0.2s;
 }
 
-/* Adds Space between the lines */
 .middle-bar{
     margin: 5px auto;
 }
-
-/* State when navbar is opened (START) */
 .navbar-toggler .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
@@ -161,194 +200,8 @@ h3{
     background-color: #777777;
 }
 
-.container-fluid
-{
-  padding: 7% 15%;
-}
-
-body
-{
-  font-family: "Montserrat";
-  
-}
-
-/* Navigation-bar */
-.navbar-brand
-{
-  font-family:"Ubuntu";
-  font-size:2.5rem;
-  font-weight: bold;
-}
-
-.navbar
-{
-  padding:0 0 4.5rem;
-}
-
-.nav-item
-{
-  padding:0 18px;
-}
-.nav-link
-{
-  font-size: 1.2ren;
-  font-family: "Montserrat";
-  font-weight: light;
-}
-
-.download-button
-{
-  margin:5% 3% 5% 0;
-}
-
-.title-image
-{
-  width: 20%;
-  transform: rotate(25deg);
-  position: absolute;
-  right:25%;
-
-}
-#title .container-fluid
-{
-  padding:3% 15% 7%;
-}
-
-
-
-/* Features */
-#features
-{
-  position: relative;
-  z-index: 1;
-}
-.feature-box
-{
-  padding: 5%;
-}
-
-p
-{
-  color: #8f8f8f
-}
-.icon
-{
-  color:#ef8172;
-  margin-bottom: 1rem;
-}
-.icon:hover
-{
-  color:#ff4c68;
-}
-
-
-
-/* Testimonials Section */
-#testimonials
-{
-  background-color:#ef8172;
-}
-
-
-.testimonial-image
-{
-  width:10%;
-  border-radius: 100%;
-  margin:20px;
-}
-
-#press
-{
-  background-color:#ef8172;
-  padding-bottom: 3%;
-}
-.press-logo
-{
-  width:15%;
-  margin:20px 20px 50px;
-}
-
-.testimonial-text
-{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Pricing Section */
-#pricing
-{
-  padding:100px;
-}
-
-.pricing-column
-{
-  padding:3% 2%;
-}
-
-.price-text
-{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-
-@media (max-width:1028px)
-{
-  #title
-  {
-    text-align: center;
+/* @media (max-width:900px){
+  .trustee_members{
+    font-size: 40px;
   }
-  .title-image
-  {
-    position: static;
-    width:60%;
-    transform:rotate(0);
-  }
-}
-
-
-
-
-/* Footer Section */
-
-.social-icon
-{
-  margin:20px 10px;
-}
-
-/* Headings */
-.big-heading
-{
-  font-family: "Montserrat",sans-serif;
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5
-}
-.section-heading
-{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-
-h1,h2,h3,h4,h5,h6
-{
-  font-family: "Montserrat",sans-serif;
-  font-weight: bold;
-}
-.title-heading
-{
-  text-align: left;
-}
-
-
-/* Sections */
-.colored-section
-{
-  background-color:#ff4c68;
-  color: #fff;
-}
-.white-section
-{
-    background-color:#fff;
-}
+} */
